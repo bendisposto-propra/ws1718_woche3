@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Propra2 Teilnehmer hinzufügen</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="/css/bootstrap.min.css"></link>
+<script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<span class="navbar-brand">Propra2 Teilnehmer</span>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active"><a class="nav-link" href="all">Liste
+							<span class="sr-only">(current)</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" href="addform">Neu</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div style="margin: 1em;">
+			<form method="get" action="add">
+				<div class="form-group">
+					<label for="githubInput">Github login</label> <input type="text"
+						class="form-control" name="github" id="githubInput"
+						placeholder="Github Login"></input>
+				</div>
+				<div class="form-group">
+					<label for="nameInput">Name</label> <input type="text"
+						class="form-control" name="realname" id="nameInput"
+						placeholder="Name"></input>
+				</div>
+				<div class="form-group">
+					<label for="matInput">Matrikelnummer</label> <input type="text"
+						class="form-control" name="matrikelnummer" id="matInput"
+						placeholder="Matrikelnummer"></input>
+				</div>
+				<div class="form-group">
+					<label for="loginInput">Uni Login</label> <input type="text"
+						class="form-control" name="login" id="loginInput"
+						placeholder="Uni Login"></input>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
