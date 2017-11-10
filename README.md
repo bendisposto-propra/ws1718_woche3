@@ -25,7 +25,7 @@ Für den Container werden folgende Umgebungsvariablen benötigt:
 - `MYSQL_USER`
 - `MYSQL_PASSWORD`
 
-Die Werte könen Sie selber wählen, müssen aber darauf achten, dass Sie zum Beispiel Benutzernamen und Passwort konsistent in Datenbank und Webapplikation verwenden.
+Der Wert für `MYSQL_DATABASE` muss auf `teilnehmer`gesetzt werden, die anderen Werte könen Sie selber wählen, müssen aber darauf achten, dass Sie zum Beispiel Benutzernamen und Passwort konsistent in Datenbank und Webapplikation verwenden.
 
 # Webapplikation
 
